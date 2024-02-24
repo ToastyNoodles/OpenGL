@@ -6,7 +6,7 @@ std::string LoadShaderFile(const char* shaderFile)
 	std::ifstream fileStream(shaderFile, std::ios::in);
 
 	if (!fileStream.is_open()) {
-		std::cerr << "Could not read file " << shaderFile << "." << std::endl;
+		std::cerr << "Could not read file " << shaderFile << std::endl;
 		return "";
 	}
 

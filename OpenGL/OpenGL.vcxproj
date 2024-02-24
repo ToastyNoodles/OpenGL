@@ -160,10 +160,8 @@
     <ClInclude Include="vendor\GLFW\GLFW\glfw3native.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\shaders\screen.frag" />
-    <None Include="res\shaders\screen.vert" />
-    <None Include="res\shaders\triangle.frag" />
-    <None Include="res\shaders\triangle.vert" />
+    <None Include="res\shaders\shader.frag" />
+    <None Include="res\shaders\shader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
